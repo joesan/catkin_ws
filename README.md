@@ -1,6 +1,8 @@
 # catkin_ws
 
-This is the reference project for setting up a new ROS project!
+This is the reference project for setting up a new ROS project! 
+
+ALERT: This is just a reference project. Head over to [this project here](https://github.com/joesan/) for a comprehensive useful project!
 
 ## Pre-Requisites
 

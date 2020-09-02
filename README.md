@@ -3,7 +3,7 @@
 This is the reference project for setting up a new ROS project! 
 
 ```diff
-ALERT: Go to [this project here](https://github.com/joesan/) for a comprehensive useful project!
+- ALERT: Go to [this project here](https://github.com/joesan/) for a comprehensive useful project!
 ```
 
 ## Pre-Requisites

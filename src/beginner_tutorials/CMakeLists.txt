@@ -8,11 +8,17 @@ find_package(catkin REQUIRED COMPONENTS roscpp rospy std_msgs genmsg)
 #add_message_files(FILES Num.msg)
 add_service_files(FILES modifyText.srv)
 
+## Generate Message Files
+add_message_files(
+  FILES
+  Person.msg
+)
+
 ## Generate added messages and services
 generate_messages(DEPENDENCIES std_msgs)
 
 ## Declare a catkin package
-catkin_package()
+catkin_package(CATKIN_DEPENDS message_runtime)
 
 ## Build talker and listener
 include_directories(include ${catkin_INCLUDE_DIRS})

@@ -3,6 +3,6 @@ prefix=/home/joesan/Projects/Private/ros-projects/catkin_ws/src/cmake-build-debu
 Name: beginner_tutorials
 Description: Description of beginner_tutorials
 Version: 0.0.0
-Cflags: 
+Cflags: -I/home/joesan/Projects/Private/ros-projects/catkin_ws/src/cmake-build-debug/devel/include
 Libs: -L${prefix}/lib 
-Requires: 
+Requires: message_runtime

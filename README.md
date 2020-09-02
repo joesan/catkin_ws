@@ -48,3 +48,53 @@ Exec=bash -i -c "/opt/softwares/clion-2020.2.1/bin/clion.sh" %f
 ```
 
 That's it! Now just import the project and the workspace in CLion and you are good to go!
+
+## Running the demo nodes
+
+There are two options to run the demo:
+
+1. Without a launcn file
+2. With a launch file
+
+### Running without the launch file
+
+Open a new terminal and type
+
+```
+roscore
+```
+
+To run talker open a new terminal and type
+
+```
+cd catkin_ws
+source devel/setup.bash
+rosrun beginner_tutorials talker
+```
+
+To run listener open a new terminal and type
+
+```
+cd catkin_ws
+source devel/setup.bash
+rosrun beginner_tutorials listener
+```
+To stop the program press ctrl+C in each of the three terminals.
+
+## Running using the launch file
+
+Open a new terminal and type
+
+```
+roscore
+```
+
+Open another termin and use the launch file to run both the talker and listener at once
+
+```
+cd catkin_ws
+source devel/setup.bash
+roslaunch beginner_tutorials hw10.launch
+```
+
+To stop the program press ctrl+C in each of the two terminals.
